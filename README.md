@@ -46,6 +46,7 @@
    ## Search parameters:
    1. query : String -> Any name to find repositories in github for
    ## Example Usage:
+   #### In javascript : 
    ```javascript
    // Set up request headers
    const myHeaders = new Headers();
