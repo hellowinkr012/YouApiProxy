@@ -4,7 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "test:single": "node test/test_endpoint_v1_0.js",
+    "test:multiple": "node test/test_many_v1.js"
   },
   "keywords": [],
   "author": "",
