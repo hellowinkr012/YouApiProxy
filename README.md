@@ -65,6 +65,11 @@ This project includes test scripts to ensure that both single and multiple reque
    ```javascript
    // Set up request headers
    const myHeaders = new Headers();
+
+   // It is one of test credentials already added
+   const username = "admin";
+   const passowrd = "11111111";
+   
    // Base64-encode the username and password for Basic Authentication
    const base64EncodedCredentials = btoa(`${username}:${password}`);
 
